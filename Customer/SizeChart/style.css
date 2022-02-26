@@ -1,0 +1,66 @@
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#accordion h3 {
+  margin-top: 12px;
+}
+#accordion .tab-content {
+  margin-top: 12px;
+}
+#accordion .nav-tabs a {
+  font-size: 12px;
+}
+
+#accordion .panel-heading {
+  padding: 0;
+}
+#accordion .panel-heading a {
+  display: block;
+  padding: 12px;
+}
+#accordion .panel-heading .nav > li > a {
+  padding: 10px 7px;
+}
+
+td {
+  padding: 0.8em;
+}
+
+table tr:first-child td {
+  background: #333;
+  color: white;
+}
+
+caption {
+  color: white;
+  background: #5c5c5c;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+/* Fix chopped in half elements caused by -webkit-overflow-scrolling-touch bug */
+td {
+  -webkit-transform: translate3d(0, 0, 0);
+  background: white;
+  border: 1px solid #ddd;
+}
